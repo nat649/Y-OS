@@ -1,0 +1,7 @@
+#!/bin/bash
+set -e
+apt install -y wget
+LATEST=$(wget -qO- https://api.github.com/repos/fastfetch-cli/fastfetch/releases/latest | grep "browser_download_url.*linux-amd64.deb" | cut -d '"' -f 4)
+wget -O /tmp/fastfetch.deb "$LATEST"
+dpkg -i /tmp/fastfetch.deb
+rm /tmp/fastfetch.deb

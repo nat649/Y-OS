@@ -1,0 +1,10 @@
+cache/
+chroot/
+binary/
+*.iso
+*.img
+*.deb
+*.tar
+*.squashfs
+build.log
+.build/

@@ -1,0 +1,16 @@
+#!/bin/bash
+mkdir -p /etc/skel/.config/dconf
+cat > /etc/skel/.config/dconf/user.ini << 'DCONF'
+[org/gnome/desktop/interface]
+color-scheme='prefer-dark'
+gtk-theme='Adwaita-dark'
+icon-theme='Papirus-Dark'
+font-name='Fira Code 11'
+
+[org/gnome/desktop/background]
+picture-uri='file:///usr/share/backgrounds/yos/wallpaper.png'
+picture-uri-dark='file:///usr/share/backgrounds/yos/wallpaper.png'
+
+[org/gnome/shell]
+enabled-extensions=['dash-to-dock@micxgx.gmail.com']
+DCONF

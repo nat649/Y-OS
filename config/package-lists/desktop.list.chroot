@@ -1,0 +1,59 @@
+# GNOME Core
+gnome-core
+gnome-tweaks
+gnome-shell-extensions
+gnome-shell-extension-dashtodock
+papirus-icon-theme
+fonts-noto
+fonts-firacode
+
+# Internet
+chromium
+wget
+curl
+
+# Multimédia
+vlc
+evince
+
+# Bureautique
+libreoffice-writer
+libreoffice-calc
+
+# Terminal & Shell
+zsh
+zsh-autosuggestions
+zsh-syntax-highlighting
+bash-completion
+tmux
+
+# Monitoring
+btop
+lm-sensors
+
+# Fichiers & Navigation
+tree
+ncdu
+ranger
+fzf
+
+# Réseau
+net-tools
+nmap
+traceroute
+openssh-client
+
+# Utilitaires
+unzip
+p7zip-full
+tar
+git
+vim
+nano
+
+# Système
+flatpak
+gnome-software-plugin-flatpak
+htop
+gparted
+python3
